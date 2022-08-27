@@ -1,0 +1,55 @@
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+    height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url('../img/241.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*.carousel-item:nth-child(2) {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}*/
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+    #introCarousel {
+        margin-top: -58.59px;
+    }
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.mdb-logotypes img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1400px) {
+    .mdb-logotypes img {
+        max-width: 80px;
+        margin-bottom: 25px;
+    }
+}
+
+.btn-success {
+    background: #9ac31c !important;
+}
